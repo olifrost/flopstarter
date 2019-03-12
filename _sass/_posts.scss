@@ -1,0 +1,115 @@
+
+.post img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.post figure, .youtube-player {
+  margin-bottom: 1.75rem;
+}
+
+// Special Classes
+
+.portrait {
+  width: 100%;
+}
+
+.border {
+  border: 1px solid $gray-2;
+}
+
+.logo {
+  text-align: center;
+  font-style: italic;
+
+  img {
+    margin-bottom: 0rem !important;
+  }
+}
+
+
+.caption {
+  quotes: "“" "”" "‘" "’";
+  margin: 0;
+  padding: 0 2rem;
+  margin-bottom: 4rem;
+}
+
+.caption::before {
+  content: open-quote;
+}
+
+.caption::after {
+  content: close-quote;
+}
+
+/* Larger than mobile screen */
+@media (min-width: 60.0rem) {
+  .portrait {
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    //max-width: 49.75%;
+    max-width: 33%;
+  }
+}
+
+// Blog post or page title
+
+.page-title,
+.post-title {
+  margin-top: 0;
+  display: inline-block;
+}
+
+.archive .post-title {
+  margin-top: 2.5rem;
+}
+
+.post p {
+  font-size: 2rem;
+}
+
+.post-client {
+  font-weight: 1rem;
+  font-size: 1rem;
+}
+
+
+
+.post-date {
+  margin-top: 1rem;
+  color: $gray-3;
+}
+
+.order {
+  min-height: 50rem;
+}
+
+.related {
+  margin-top:4rem;
+
+}
+.page {
+  text-align: center;
+}
+.post-title {
+  font-weight: bolder;
+  margin-top:2rem;
+}
+
+.disclaimer {
+  font-size: 1.5rem !important;
+  font-style: italic;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.post button {
+  width: 100%;
+}
+
+.post-info {
+  margin-bottom: 1rem;
+}

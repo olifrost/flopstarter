@@ -1,0 +1,36 @@
+$green: #00d37a !default;
+$grey: #606060 !default;
+
+
+.grey {
+  background-color: #cccccc;
+  color: #cccccc;
+}
+
+.green {
+    background-color: $green;
+    border-color: $green;
+
+}
+
+// Gray
+$gray-1: #f9f9f9;
+$gray-2: #efefef;
+$gray-3: #767676;
+$gray-4: #515151;
+$gray-5: #313131;
+$black: #000;
+
+$font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+
+$color-initial: #fff !default;
+$color-primary: #00d37a;
+$color-secondary: #606c76;
+$color-gray: #8f9aa3;
+
+$color-tertiary: #E6C700 !default;
+$color-quaternary: #E61F00 !default;
+
+$first-breakpoint: 38em;
+$second-breakpoint: 64em;
+$third-breakpoint: 75em;

@@ -1,0 +1,51 @@
+# Permalinks
+permalink:           :title/
+
+# Setup
+title:               Flopstarter
+tagline:             A platform for bad ideas
+description:         A platform for bad ideas
+footer:              About
+banner:              header.png
+logo:                img/ogimage.png
+
+# Markdown
+
+
+# SASS
+sass:
+  sass_dir:          _sass
+  style:            compressed
+  encoding:         utf-8
+# Google Analytics
+analytics_id:  UA-108614926-1
+
+# SEO
+author:
+  name: Oli Frost
+  twitter: flopstarter
+  facebook: flopstarter
+  email: mail@olifro.st
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /img/ogimage.png
+
+twitter:
+  username: flopstarter
+instagram:
+  username: flopstarter
+facebook:
+    username: flopstarter
+
+social:
+  name: Flopstarter
+  links:
+    - https://twitter.com/flopstarter
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag

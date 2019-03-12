@@ -1,0 +1,14 @@
+$green: #00d37a !default;
+$grey: #606060 !default;
+
+
+.grey {
+  background-color: #cccccc;
+  color: #cccccc;
+}
+
+.green {
+    background-color: $green;
+    border-color: $green;
+
+}

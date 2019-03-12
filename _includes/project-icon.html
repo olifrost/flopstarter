@@ -1,0 +1,18 @@
+<div class="project-column col-xs-12 col-sm-6 col-md-4 col-lg-4 hvr-float">
+    <div class="card">
+        <div class="card-image">
+            <a href="{{ include.url | relative_url }}"><img src="{{ "/img/" | relative_url }}{{ include.img }}" class="img-responsive" /></a>
+        </div>
+        <div class="card-header">
+            <a href="{{ include.title }}"><h4 class="card-title">{{ include.title }}</h4></a>
+            <h6 class="card-meta">{{ include.author }}</h6>
+        </div>
+        <div class="card-body">
+            {{ include.description }}
+        </div>
+        <div class="card-footer">
+          <div class="chip">{{ include.tags }}</div>
+
+        </div>
+    </div>
+</div>

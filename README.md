@@ -1,2 +1,2 @@
-# flopstarter
-a platform for bad ideas
+# Flopstarter
+A platform for bad ideas

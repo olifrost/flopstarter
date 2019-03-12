@@ -1,0 +1,40 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+    <header>
+        <div class="container">
+              <div class="row between-md">
+                <div id="add" class="col-xs-6 col-sm-4">
+            <span class="tagline"><a href="{{ "/submit" | relative_url }}"><span class="icon">{% include add.svg %}</span> Submit a project</a></span>
+                </div>
+                  <div id="social" class="col-xs-12 col-sm-4 first-xs normal-sm">
+              <a href="{{ site.baseurl }}/"><img src="{{ "/img/" | relative_url }}{{ site.banner }}"></img></a>
+                  </div>
+
+                   <div class="col-xs-6 col-sm-4">
+                     <span id="follow"></span>
+                     <span>{% include icon-twitter.html %}{% include icon-instagram.html %}{% include icon-facebook.html %}</span>
+                   </div>
+              </div>
+
+
+        </div>
+    </header>
+
+    <div class="container">
+        <main class="content animated fadeInDown">
+            {{ content }}
+        </main>
+        {% include footer.html %}
+    </div>
+
+</body>
+
+</html>

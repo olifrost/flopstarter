@@ -1,0 +1,14 @@
+<aside class="related">
+
+<p>Other Projects:</p>
+  <div class="posts" style="padding-top:0rem;">
+    <div class="row top-xs project-list">
+  {% for post in site.posts limit:3 %}
+      <div class="project-column col-xs-12 col-sm-6 col-md-4 col-lg-4 hvr-float">
+      <a href="{{ post.url }}"><img class="post-image" src="/img/{{ post.image }}"></a>
+    </div>
+  {% endfor %}
+    </div>
+  </div>
+
+</aside>

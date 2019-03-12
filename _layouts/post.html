@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<article class="post">
+
+<!-- Buy -->
+
+  <img src="{{ "/img/prev/p-" | relative_url }}{{ page.preview }}">
+
+
+  <p class="post-info"><span class="post-title">{{ page.title }}:</span><br>
+    {{ page.description }}<br>
+  </p>
+  <p class="disclaimer">
+    {{ page.disclaimer }}
+  </p>
+
+
+  <button data-celery="{{ page.order }}">
+    Back This Project (${{ page.price }})
+  </button>
+<!-- Bar -->
+<div class="funding">
+  <div class="bar">
+    <div class="bar-item" role="progressbar" style="width:{% if page.progress == null %}1{% else %}{{ page.progress }}{% endif %}%;" aria-valuenow="
+{% if page.progress == null %}1{% else %}{{ page.progress }}{% endif %}
+    " aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <div class="row details">
+      <div class="col-xs-6 progress">
+      <strong>{% if page.progress == null %}0{% else %}{{ page.progress }}{% endif %}%</strong> funded
+      </div>
+      <div class="col-xs-6 price">
+      <strong>${{ page.goal }}</strong> USD
+      </div>
+  </div>
+</div>
+<!-- Related -->
+
+
+
+
+
+</div>
+
+</article>
+
+
+<script async src="https://www.trycelery.com/js/celery.js"></script>

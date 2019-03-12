@@ -1,0 +1,52 @@
+.bar {
+  background: #f0f1f4;
+  border-radius: 1.5rem;
+  display: flex;
+  display: -ms-flexbox;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  height: 1rem;
+  width: 100%;
+}
+
+.bar.bar-sm {
+  height: .2rem;
+}
+
+.bar .bar-item {
+  background: $green;
+  color: #fff;
+  display: block;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-size: .7rem;
+  height: 100%;
+  line-height: .8rem;
+  position: relative;
+  text-align: center;
+  width: 0;
+}
+
+.bar .bar-item:first-child {
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.bar .bar-item:last-child {
+  border-bottom-right-radius: .1rem;
+  border-top-right-radius: .1rem;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+}
+
+.details {
+  margin-top: 1rem;
+}
+
+.price {
+  text-align: right;
+}
+
+.funding {
+  margin-top: 2rem;
+}

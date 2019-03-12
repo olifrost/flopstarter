@@ -1,0 +1,22 @@
+
+.App::before, .Film::before, .Drink::before, .Game::before {
+  font-family: 'FontAwesome';
+  margin-right: 1rem;
+
+}
+
+.App::before {
+  content: '\f10b';
+}
+
+.Film::before {
+  content: '\f008';
+}
+
+.Drink::before {
+  content: '\f000';
+}
+
+.Game::before {
+  content: '\f11b';
+}
