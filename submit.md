@@ -2,7 +2,7 @@
 layout: page
 title: Submit
 ---
-<form action="https://formspree.io/oli@olifro.st" method="POST">
+<form action="https://formspree.io/f/xeqnlqyk" method="POST">
 
   <label for="Title">Title:</label>
   <input type="text" name="name" placeholder="Flopstarter" required>
