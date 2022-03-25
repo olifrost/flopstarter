@@ -23,7 +23,7 @@ analytics_id:  UA-108614926-1
 # SEO
 author:
   name: Oli Frost
-  twitter: realolifrost
+  twitter: olifro_st
   facebook: flopstarter
   email: mail@olifro.st
 
@@ -34,9 +34,9 @@ defaults:
       image: /img/ogimage.png
 
 twitter:
-  username: realolifrost
+  username: olifro_st
 instagram:
-  username: realolifrost
+  username: olifro.st
 facebook:
     username: olifrost
 
