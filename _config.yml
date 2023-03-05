@@ -24,7 +24,7 @@ analytics_id:  UA-108614926-1
 author:
   name: Oli Frost
   twitter: olifro_st
-  facebook: flopstarter
+  facebook: realolifrost
   email: mail@olifro.st
 
 defaults:
@@ -43,7 +43,7 @@ facebook:
 social:
   name: Flopstarter
   links:
-    - https://twitter.com/realolifrost
+    - https://twitter.com/olifro_st
 
 plugins:
   - jekyll-sitemap

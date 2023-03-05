@@ -12,6 +12,6 @@ all of them useless.
 
 All projects will be completed if funded.
 
-CEO and Founder [@olifro_st](https://instagram.com/olifro_st)
+CEO and Founder [@olifro.st](https://instagram.com/olifro.st)
 
 *Legal Bit: You can redistribute <a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/olifrost/flopstarter/tree/master/img">these images</a><br> under Creative Commons BY-NC*
