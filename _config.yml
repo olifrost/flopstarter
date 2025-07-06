@@ -8,6 +8,7 @@ description:         A platform for bad ideas
 footer:              About
 banner:              header.png
 logo:                img/ogimage.png
+baseurl:             "/flopstarter"
 
 # Markdown
 
